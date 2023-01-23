@@ -1,0 +1,19 @@
+.body_bg{
+    background-image:url("background.jpg");
+}
+h3{
+    font-size: 25px !important;
+}
+canvas{
+    border: 3px solid black;
+    margin-top: 65px;
+    animation: ex 5s infinite;
+}
+@keyframes ex{
+    from{
+        box-shadow: 2px 2px 30px green;
+    }
+    to{
+        box-shadow: 2px 2px 30px blue; 
+    }
+}
